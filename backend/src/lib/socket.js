@@ -13,6 +13,7 @@ const io = new Server(server,{
 }); 
 
 export function getReceiverSocketId(userId){
+    console.log("reciever socket id : ", userId); 
     return userSocketMap[userId]; 
     
 }
